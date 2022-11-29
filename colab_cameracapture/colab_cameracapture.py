@@ -6,7 +6,7 @@
 from IPython.display import display, Javascript
 from google.colab.output import eval_js
 
-def start_cap(quality=0.8):
+def main(quality=0.8):
   js = Javascript('''
     async function useCam(quality) {
       const div = document.createElement('div');
