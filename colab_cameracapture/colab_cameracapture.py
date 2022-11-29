@@ -7,7 +7,7 @@ from IPython.display import display, Javascript
 from google.colab.output import eval_js
 
 def main(quality=0.8):
-  print('yeah are you looking here?')
+  print('--- Start to capture ---')
   js = Javascript('''
     async function useCam(quality) {
       const div = document.createElement('div');
