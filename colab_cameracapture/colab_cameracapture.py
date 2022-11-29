@@ -77,5 +77,5 @@ def main(quality=0.8):
   display(js)
   data = eval_js('useCam({})'.format(quality))
 
-  if __name__ == '__main__':
-    main()
+if __name__ == '__main__':
+  main()
