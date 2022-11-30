@@ -7,6 +7,7 @@ from IPython.display import display, Javascript
 from google.colab.output import eval_js
 
 def main(quality=0.8):
+  print('Debug version 20221130_1248.')
   print('--- Start to capture ---')
   js = Javascript('''
     async function useCam(quality) {
